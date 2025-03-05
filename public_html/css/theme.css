@@ -9489,4 +9489,14 @@ header .navbar-nav .nav-item .nav-link {
     header .navbar-nav .nav-item .nav-link {
       padding: 0; } }
 
+.herro-home {
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: auto 100%;
+  padding: 8.9rem 0; }
+  .herro-home .home-contant {
+    background-color: rgba(255, 255, 255, 0.6); }
+    .herro-home .home-contant .home-description {
+      margin-bottom: 5.9rem; }
+
 /*# sourceMappingURL=theme.css.map */
