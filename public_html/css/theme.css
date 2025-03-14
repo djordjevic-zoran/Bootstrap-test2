@@ -9606,20 +9606,47 @@ $info-text: #586C88;
     color: #586C88;
     text-decoration: none; }
 
+/*
+
+
+$copyright-color: #586C88;
+$social-color: #000;
+
+footer{
+    padding: 2.8rem 0 2.7rem;
+    .copyright{
+        color: $copyright-color;
+        font-size: 1.2rem;
+        line-height: 2.5rem;
+        font-weight: 500;
+    }
+    .social{
+        .social-icon{
+            color: $social-color;
+            text-decoration: none;
+            font-size: 2rem;
+            margin: 0 5px;
+            transition: 0.6s linear;
+            &:hover{
+                transform: rotate(360deg);
+            }
+        }
+    }
+}*/
 footer {
   padding: 2.8rem 0 2.7rem; }
   footer .copyright {
     color: #586C88;
     font-size: 1.2rem;
-    line-height: 2.5rem;
-    font-weight: 500; }
-  footer .social .social-icon {
+    font-weight: 500;
+    line-height: 2.5rem; }
+  footer .social-icon {
     color: #000;
     text-decoration: none;
     font-size: 2rem;
     margin: 0 5px;
-    transition: 0.6s linear; }
-    footer .social .social-icon:hover {
-      transform: rotate(360deg); }
+    transition: 0.5s linear; }
+    footer .social-icon:hover {
+      transform: rotate(180deg); }
 
 /*# sourceMappingURL=theme.css.map */
