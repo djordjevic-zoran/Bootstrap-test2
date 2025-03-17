@@ -9546,6 +9546,14 @@ header .navbar-nav .nav-item .nav-link {
     color: #000; }
     .services-section .services-section-description:hover {
       color: #1A77CD; }
+  .services-section.dark-service-section {
+    background-color: #11284B; }
+    .services-section.dark-service-section .services-section-title {
+      color: #1A77CD; }
+    .services-section.dark-service-section .services-section-item .services-section-description {
+      color: #fff; }
+      .services-section.dark-service-section .services-section-item .services-section-description:hover {
+        color: #1A77CD; }
 
 .team-section {
   padding: 8.1rem 0 6.8rem;
@@ -9673,5 +9681,19 @@ footer {
     display: block; }
   .about-section .about-data h2, .about-section .about-data .h2 {
     margin-bottom: 2.6rem; }
+
+.single-services-section {
+  padding: 10.6rem 0 10.8rem; }
+  .single-services-section .single-services-image {
+    position: sticky;
+    top: 0; }
+    .single-services-section .single-services-image img {
+      width: 100%;
+      display: block; }
+  .single-services-section h2, .single-services-section .h2 {
+    margin-bottom: 2.6rem; }
+  .single-services-section ul {
+    list-style: none;
+    padding-left: 0; }
 
 /*# sourceMappingURL=theme.css.map */
